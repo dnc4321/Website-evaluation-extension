@@ -1,0 +1,73 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    width: 300px;
+    background-color: rgb(19, 19, 19);
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    /*border: 1px solid green;*/
+
+}
+
+#productbar {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.productimg{
+    max-width: 40px;
+}
+
+#buttoncontainer {
+    height: 100px;
+    position: relative;
+    /*border: 1px solid green;*/
+}
+
+.analyse {
+    background-color: rgb(19, 19, 19);
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: rgb(77, 77, 77);
+    border-style: solid;
+    transition: 0.5s;
+
+}
+
+.analyse:hover {
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    border-radius: 30;
+    background-color: rgb(10, 10, 10);
+    transition: 0.5s;
+    /*border-color: rgb(98, 98, 98);
+    /*border-width: 5px;*/
+
+    font-size: 22px;
+
+}
+
+.bar {
+    padding: 10px;
+    background-color: rgb(10, 10, 10);
+}
