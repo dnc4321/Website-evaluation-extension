@@ -21,26 +21,20 @@ body {
     max-width: 40px;
 }
 
-#buttoncontainer {
-    height: 100px;
-    position: relative;
-    /*border: 1px solid green;*/
-}
+
 
 .analyse {
     background-color: rgb(19, 19, 19);
     font-size: 20px;
     font-weight: 700;
     color: white;
-    position: absolute;
+    max-width: 300px;
+    word-wrap: break-word;
 
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    cursor: pointer;
     padding: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -53,17 +47,16 @@ body {
 }
 
 .analyse:hover {
-    padding: 30px;
+    /*padding: 25px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 15px;*/
 
-    border-radius: 30;
-    background-color: rgb(10, 10, 10);
+    border-radius: 30px;
+    background-color: rgb(5, 5, 5);
     transition: 0.5s;
-    /*border-color: rgb(98, 98, 98);
-    /*border-width: 5px;*/
+    
 
-    font-size: 22px;
+    /*font-size: 22px;*/
 
 }
 

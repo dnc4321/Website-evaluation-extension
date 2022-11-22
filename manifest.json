@@ -3,8 +3,12 @@
     "description": "Evaluates the performance of a website",
     "version": "0.0.1",
     "manifest_version": 3,
+    "author": "DNC",
     "action":{
         "default_popup": "popup.html",
         "default_icon": "icon.png"
+    },
+    "background": {
+        "service_worker": "background.js"
     }
 }
