@@ -2,6 +2,6 @@
 
 simple html, css, javascript 
 extention
-extract wepsite
+extract website
 evaluate
 g-lighthouse
