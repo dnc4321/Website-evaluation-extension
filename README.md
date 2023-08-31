@@ -1,4 +1,4 @@
-# Final-Year-project Extension
+# Website Speed Index Viewer Extension wsing Google Lighthouse
 
 simple html, css, javascript 
 extention
